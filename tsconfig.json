@@ -11,10 +11,12 @@
       "es2019",
       "ES2020",
       "ES2021",
-      "ES2022"
+      "ES2022",
+      "DOM"
     ],
     "target": "ES6",
     "outDir": "./dist",
+    // strictPropertyInitialization은 프로퍼티의 값이 초기화되었는지 안되었는지 체크하는 역할을 담당합니다.
     "strictPropertyInitialization": false,
     "esModuleInterop": true
   },
