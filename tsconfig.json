@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": [
+      "ES2015",
+      "ES2016",
+      "ES2017",
+      "ES2018",
+      "es2019",
+      "ES2020",
+      "ES2021",
+      "ES2022"
+    ],
+    "target": "ES6",
+    "outDir": "./dist",
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./**/*"]
+}
